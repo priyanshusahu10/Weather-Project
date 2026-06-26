@@ -1,5 +1,5 @@
-const URL = "https://api.openweathermap.org/data/2.5/weather?&units=metric&q="
-const api_key = "a36c84991a9fb7f5da92835faccbab19";
+const URL = ""
+const api_key = "";
 let temp = document.querySelector(".temp")
 let cityname = document.querySelector(".city")
 let humidity = document.querySelector(".humidity")
