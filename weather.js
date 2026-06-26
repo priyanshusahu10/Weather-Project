@@ -9,8 +9,6 @@ let search = document.querySelector(".searchbox input")
 let icon = document.querySelector(".weather-img")
 
 
-
-
  async function checkWeather(city) {
     const response = await fetch(URL + city + `&appid=${api_key}`);
     var data = await response.json()
